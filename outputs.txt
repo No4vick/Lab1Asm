@@ -1,0 +1,99 @@
+Task 2:
+char: 1 byte
+signed char: 1 byte
+unsigned char: 1 byte
+wchar_t: 2 bytes
+short: 2 bytes
+unsigned short: 2 bytes
+int: 4 bytes
+unsigned int: 4 bytes
+long: 4 bytes
+unsigned long: 4 bytes
+long long: 8 bytes
+unsigned long long: 8 bytes
+float: 4 bytes
+double: 8 bytes
+long double: 16 bytes
+size_t: 8 bytes
+ptrdiff_t: 8 bytes
+void*: 8 bytes
+char*: 8 bytes
+int*: 8 bytes
+unsigned int*: 8 bytes
+
+Task 3:
+а) 0
+б) 0000000000000000
+в) 0
+г) 0
+д) 0000000000000000
+е) 0
+
+а) ffff
+б) 1111111111111111
+в) 65535
+г) ffff
+д) 1111111111111111
+е) -1
+
+а) 8000
+б) 1000000000000000
+в) 32768
+г) 8000
+д) 1000000000000000
+е) -32768
+
+а) 7fff
+б) 0111111111111111
+в) 32767
+г) 7fff
+д) 0111111111111111
+е) 32767
+
+а) 6
+б) 0000000000000110
+в) 6
+г) 6
+д) 0000000000000110
+е) 6
+
+а) fffd
+б) 1111111111111101
+в) 65533
+г) fffd
+д) 1111111111111101
+е) -3
+
+
+Task 4:
+
+
+
+Task 5:
+Integer:      
+0x2eb37ff8f4  
+0x2eb37ff8f5  
+0x2eb37ff8f6  
+0x2eb37ff8f7  
+Integer array:
+0x2eb37ff8e8  
+0x2eb37ff8e9  
+0x2eb37ff8ea
+0x2eb37ff8eb
+0x2eb37ff8ec
+0x2eb37ff8ed
+0x2eb37ff8ee
+0x2eb37ff8ef
+0x2eb37ff8f0
+0x2eb37ff8f1
+0x2eb37ff8f2
+0x2eb37ff8f3
+Double-precision float (double):
+0x2eb37ff8e0
+0x2eb37ff8e1
+0x2eb37ff8e2
+0x2eb37ff8e3
+0x2eb37ff8e4
+0x2eb37ff8e5
+0x2eb37ff8e6
+0x2eb37ff8e7
