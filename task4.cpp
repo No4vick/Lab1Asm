@@ -33,7 +33,9 @@ void print64(void *p){
 
     std::cout << "ж) " << std::fixed << *reinterpret_cast<double*>(p) << std::endl;
     std::cout << "з) " << std::scientific << *reinterpret_cast<double*>(p) << std::endl; // scientific - научная нотация (с экспонентой)
-    std::cout << std::endl;
+    // std::cout << "wqewqewe) " << std::bitset<64>(*reinterpret_cast<double*>(p)) << std::endl;
+    // std::cout << static_cast<long long>(*reinterpret_cast<double*>(p)) << std::endl;
+    // std::cout << std::endl;
 }
 
 int main(){

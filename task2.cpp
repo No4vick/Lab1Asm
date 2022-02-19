@@ -4,7 +4,6 @@ void print_size(const char* name, size_t size){
     if (size == 1){
         std::cout << name << ": " << size << " byte" << std::endl;
     }
-    // Я не уверен, что это байты, но ладно, похоже на правду. На самом деле размер зависит от системы и size_t может иметь разные значения.
     else {
         std::cout << name << ": " << size << " bytes" << std::endl;
     }
