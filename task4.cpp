@@ -32,7 +32,7 @@ void print64(void *p){
     std::cout.precision(2);  // Устанавливает точность после запятой
 
     std::cout << "ж) " << std::fixed << *reinterpret_cast<double*>(p) << std::endl;
-    std::cout << "з) " << std::scientific << *reinterpret_cast<signed long long*>(p) << std::endl; // scientific - научная нотация (с экспонентой)
+    std::cout << "з) " << std::scientific << *reinterpret_cast<double*>(p) << std::endl; // scientific - научная нотация (с экспонентой)
     std::cout << std::endl;
 }
 
