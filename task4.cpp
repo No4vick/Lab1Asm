@@ -94,7 +94,6 @@ int main(){
     print64(&y_64);
     print64(&z_64);
     
-    // vvv Something doesn't seem right in output
     print64(&xf_64);
     print64(&yf_64);
     print64(&zf_64);
