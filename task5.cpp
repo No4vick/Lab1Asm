@@ -9,10 +9,10 @@ void printDump(void *p, size_t N){
 }
 
 int main(){
-    char str1[] = "abcdzklmn";
+    char str1[] = "abczklmn";
     char str2[] = "абвёклмн";
 
-    wchar_t strlong1[] = L"abcdzklmn";
+    wchar_t strlong1[] = L"abczklmn";
     wchar_t strlong2[] = L"абвёклмн";
 
     std::cout << "String " << str1 << ":" << std::endl;
