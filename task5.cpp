@@ -9,18 +9,25 @@ void printDump(void *p, size_t N){
 }
 
 int main(){
-    unsigned int x = 0x8A8B8C8D;
-    int y = 6;
-    int z = -3;
-    std::cout << "Integer:\n"; 
-    printDump(&x, sizeof(x));
-    
+    char str1[] = "abcdzklmn";
+    char str2[] = "абвёклмн";
 
-    std::cout << "Integer array:\n"; 
-    int arr[3] = {x, y, z};
-    printDump(&arr, sizeof(arr));
+    wchar_t strlong1[] = L"abcdzklmn";
+    wchar_t strlong2[] = L"абвёклмн";
 
-    std::cout << "Double-precision float (double):\n"; 
-    double yd = y;
-    printDump(&yd, sizeof(yd));
+    std::cout << "String " << str1 << ":" << std::endl;
+    printDump(&str1, sizeof(str1));
+
+    std::cout << "String " << str2 << ":" << std::endl;
+    printDump(&str2, sizeof(str2));
+
+    std::cout << "String ";
+    std::wcout << strlong1;
+    std::cout << ":" << std::endl;
+    printDump(&strlong1, sizeof(strlong1));
+
+    std::cout << "String ";
+    std::wcout << strlong2;
+    std::cout << ":" << std::endl;
+    printDump(&strlong2, sizeof(strlong2));
 }
