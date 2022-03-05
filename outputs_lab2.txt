@@ -185,7 +185,33 @@ unsigned int*: 8 bytes
 
 > task5
 
-
+Integer:
+8d
+8c
+8b
+8a
+Integer array:
+8d
+8c
+8b
+8a
+06
+00
+00
+00
+fd
+ff
+ff
+ff
+Double-precision float (double):
+00
+00
+00
+00
+00
+00
+18
+40
 
 > task5 (with changes)
 
