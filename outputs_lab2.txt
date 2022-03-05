@@ -155,3 +155,103 @@ String абвёклмн:
 00
 00
 00
+
+
+Windows(x86-64, gcc)
+
+> task2:
+
+char: 1 byte
+signed char: 1 byte
+unsigned char: 1 byte
+wchar_t: 2 bytes
+short: 2 bytes
+unsigned short: 2 bytes
+int: 4 bytes
+unsigned int: 4 bytes
+long: 4 bytes
+unsigned long: 4 bytes
+long long: 8 bytes
+unsigned long long: 8 bytes
+float: 4 bytes
+double: 8 bytes
+long double: 16 bytes
+size_t: 8 bytes
+ptrdiff_t: 8 bytes
+void*: 8 bytes
+char*: 8 bytes
+int*: 8 bytes
+unsigned int*: 8 bytes
+
+> task5
+
+
+
+> task5 (with changes)
+
+String abczklmn:
+61
+62
+63
+7a
+6b
+6c
+6d
+6e
+00
+String абвёклмн:
+d0
+b0
+d0
+b1
+d0
+b2
+d1
+91
+d0
+ba
+d0
+bb
+d0
+bc
+d0
+bd
+00
+String abczklmn:
+61
+00
+62
+00
+63
+00
+7a
+00
+6b
+00
+6c
+00
+6d
+00
+6e
+00
+00
+00
+String :
+30
+04
+31
+04
+32
+04
+51
+04
+3a
+04
+3b
+04
+3c
+04
+3d
+04
+00
+00
